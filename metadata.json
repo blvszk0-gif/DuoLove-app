@@ -1,0 +1,6 @@
+{
+  "name": "DuoLove: Leon S. Kennedy Edition",
+  "description": "Urocza aplikacja w stylu Duolingo do nauki języka hiszpańskiego i angielskiego z polskim UI i głosem Leona Kennedy'ego.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

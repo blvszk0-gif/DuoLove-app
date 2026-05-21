@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <title>DuoLove - Leon Kennedy Edition</title>
+    
+    <!-- PWA & Apple Meta Tags for premium iOS Experience -->
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="DuoLove" />
+    <link rel="apple-touch-icon" href="https://images.unsplash.com/photo-1543002588-bfa74002ed7e?auto=format&fit=crop&w=180&h=180&q=80" />
+    
+    <!-- Google Fonts for cute calculator aesthetic -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@400;700&family=Didact+Gothic&family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet" />
+    
+    <style>
+      /* Prevent elastic bounce on iOS Safari */
+      html, body {
+        overflow: hidden;
+        height: 100%;
+        position: fixed;
+        width: 100%;
+      }
+    </style>
+  </head>
+  <body class="bg-[#222]">
+    <div id="root" class="h-full w-full"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
